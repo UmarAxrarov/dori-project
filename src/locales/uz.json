@@ -1,0 +1,73 @@
+{
+  "navbar": { "icon": "Hush kelibsiz" },
+  "home": {
+    "title": "Baby Metabol",
+    "title_span": "- Biologik faol oziq-ovqat qo‘shimchasi bo‘yicha qo‘llanma",
+    "pirog": {
+      "item1": "B1",
+      "item2": "DL-KARNITIN 300mg",
+      "item3": "L-LIZIN 300mg",
+      "item4": "B6",
+      "item5": "B12"
+    },
+    "list": {
+      "item1": "Faol Moddallari:",
+      "item2": "DL-karnitin — 300mg",
+      "item3": "L-Lizin gidroxlorid — 300mg",
+      "item4": "0,5 g kukun takibi:",
+      "item5": "Tsiprogeptadin atsefilinat — 0,875mg",
+      "item6": "Vitamin B1 — 1,5 mg",
+      "item7": "Vitamin B6 (Pridoksin) — 2mg",
+      "item8": "Vitamin B12 (Siyanokobalamin) — 2mkg",
+      "item9": "Selen — 5mkg"
+    },
+    "table": {
+      "th": {
+        "col1": "Yoshi",
+        "col2": "Dozasi"
+      },
+      "rows": {
+        "row1": { "yoshi": "3 oylik", "doza": "1 gr, kuniga 2 mahal" },
+        "row2": { "yoshi": "1–3 yosh", "doza": "2.5 gr, kuniga 2.5 mahal" },
+        "row3": { "yoshi": "4–8 yosh", "doza": "3.5 gr, kuniga 3.5 mahal" }
+      }
+    },
+    "typografies": {
+      "bolds": {
+        "b1": "Faol komponentlar xususiyatlari:",
+        "b2": "L-karnitin",
+        "b3": "Vitaminlar B1, B6, B12",
+        "b4": "Tsiprogeptadin atsefilinat",
+        "b5": "Qo‘llanilishi:"
+      },
+      "texts": {
+        "t1": "DL-karnitin – aminokislota bo‘lib, anabolik va antihipoksik ta’sir ko‘rsatadi. Yog‘larning metabolizmini tezlashtiradi, hujayra va to‘qimalarning regeneratsiyasini (qayta tiklanishini) rag‘batlantiradi, ishtahani oshiradi.",
+        "t2": "jigar va buyraklarda sintezlanadi, yog‘ kislotalarini hujayra mitoxondriyalariga yetkazib, energiya hosil bo‘lishida ishtirok etadi. L-lizin – aminokislota bo‘lib, kalsiy va boshqa moddalarning o‘zlashtirilishini yaxshilaydi, bu orqali organizmning normal holatini tiklaydi. Lizin tashvish holatini kamaytirishda ishlatiladi va a’zolar normal faoliyatini qo‘llab-quvvatlaydi, organizmdagi to‘qimalar va hujayralarni tashkil qiluvchi oqsilning asosiy materiali hisoblanadi.",
+        "t3": "oksidlanish-qaytarilish jarayonlarida muhim rol o‘ynaydi, modda almashinuvini va uglevodlar, oqsillar, yog‘lar sintezini tartibga soladi. Immun tizimi shakllanishiga yordam beradi, energiya ishlab chiqarilishi va markaziy asab tizimining normal faoliyatini qo‘llab-quvvatlaydi.",
+        "t4": "reaksiyalarni yengillashtiradi, qichishishga qarshi va tinchlantiruvchi ta’sirga ega, shuningdek, ishtahani rag‘batlantiradi.",
+        "t5": "faol qo‘shimcha quyidagilar uchun tavsiya etiladi: organizm uchun zarur bo‘lgan muhim aminokislotalar, vitaminlar va biologik faol moddalarning qo‘shimcha manbai sifatida; bolalarning to‘liq o‘sishi va rivojlanishini ta’minlash; ishtahani yaxshilash; ovqat hazm qilish tizimi faoliyatini faollashtirish; uglevodlar, oqsillar, yog‘lar va vitaminlarning to‘liq o‘zlashtirilishiga ko‘maklashish; shamollashdan keyin organizmning kuchini va ish qobiliyatini tiklash."
+      }
+    },
+    "typografies_two": {
+      "caption": "Qo‘llash usuli va tartibi:",
+      "danger": "PAKET ICHIDAGI KUKUNNI ERITMA SOLINGAN FLAKON ICHIGA TO‘KIB SOLING, FLAKONNI YOPING VA KUKUN TO‘LIQ ERIGUNCHA YAXSHILAB CHAYQATING. TAYYORLANGAN ERITMA BIR OY DAVOMIDA O‘Z XOSSALARINI TO‘LIQ SAQLAB QOLADI.",
+      "bolds": {
+        "b1": "Dozasi:",
+        "b2": "Qo‘llashga qarshi ko‘rsatmalar:",
+        "b3": "Nojo‘ya ta’sirlari:",
+        "b4": "Maxsus ko‘rsatmalar:",
+        "b5": "Saqlash sharoiti:",
+        "b6": "Yaroqlilik muddati:"
+      },
+      "texts": {
+        "t1": "3 oylikdan 8 yoshgacha bo‘lgan bolalar — kuniga 2 marta 2.5 ml. 8 yoshdan katta bolalar va kattalar — kuniga 2 marta 5 ml. Davolanish muddati shifokor tomonidan har bir insonning individual holatiga va ehtiyojlariga qarab belgilanadi. Odatda preparat 2 oy davomida qo‘llaniladi. Preparatni asosiy ovqatdan 30–60 daqiqa oldin ichish tavsiya etiladi.",
+        "t2": "Preparat tarkibidagi komponentlarga individual murosasizlik (allergiya). Qariyalar va jismonan zaiflashgan (holdan toygon) bemorlarga tavsiya etilmaydi.",
+        "t3": "Agar har qanday noxush holatlar (nojo‘ya ta’sirlar) yuzaga kelsa, preparatni qo‘llashni davom ettirish bo‘yicha shifokor bilan maslahatlashish lozim.",
+        "t4": "Ushbu biologik faol qo‘shimcha dori vositasi emas! Tavsiya etilgan kunlik dozadan oshirmang. Homiladorlik va emizish davrida qo‘llanilmaydi — bu davrlarda preparatni qo‘llash xavfsizligi bo‘yicha yetarli ma’lumot yo‘q. Yaroqlilik muddati qadoqda ko‘rsatilgan. Yaroqlilik muddati o‘tgandan so‘ng ishlatmang.",
+        "t5": "Quruq, xona haroratidagi joyda saqlansin. To‘g‘ridan-to‘g‘ri quyosh nurlaridan himoyalang. Bolalar ololmaydigan joyda saqlansin.",
+        "t6": "24 oy"
+      }
+    },
+    "button": "Bog‘lanish va xarid qilish"
+  }
+}
