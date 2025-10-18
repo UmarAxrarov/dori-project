@@ -13,6 +13,12 @@ interface LocaleLayoutProps {
   params: Promise<Params>;
 }
 
+// SEO metadata
+export const metadata = {
+  title: "Baby Metabol – Bosh sahifa",
+  description: "Baby Metabol sahifa – bu Baby Metabol vitaminlar va sog'liq haqida ma'lumotlar bilan tanishish joyi.",
+};
+
 export default async function LocaleLayout({ children, params }: LocaleLayoutProps) {
   const { locale } = await params;
 
@@ -25,6 +31,21 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
 
   return (
     <html lang={locale}>
+      <head>
+        {/* JSON-LD для Google */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebPage",
+              name: "Baby Metabol",
+              description: "Baby Metabol sahifa – bu Baby Metabol vitaminlar va sog'liq haqida ma'lumotlar bilan tanishish joyi.",
+              url: "https://dori-project-w8l5.vercel.app/",
+            }),
+          }}
+        />
+      </head>
       <body>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <MainLayout locale={locale}>{children}</MainLayout>
