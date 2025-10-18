@@ -1,18 +1,15 @@
+// src/app/[locale]/layout.tsx
+import { ReactNode } from "react";
 import { NextIntlClientProvider } from "next-intl";
 import { notFound } from "next/navigation";
 import { MainLayout } from "@/layout";
 import "../../styles/globals.css";
-import { ReactNode } from "react";
+import type { LayoutProps } from "next/app"; 
 
-interface LocaleLayoutProps {
-  children: ReactNode;
-  params: { locale: string };
-}
+export default async function LocaleLayout({ children, params }: LayoutProps) {
+  const locale = (params as { locale: string }).locale;
 
-export default async function LocaleLayout({ children, params }: LocaleLayoutProps) {
-  const { locale } = params;
-
-  let messages;
+  let messages: Record<string, any>;
   try {
     messages = (await import(`../../locales/${locale}.json`)).default;
   } catch {
