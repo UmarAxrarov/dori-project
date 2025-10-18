@@ -4,17 +4,21 @@ import { notFound } from "next/navigation";
 import { MainLayout } from "@/layout";
 import "../../styles/globals.css";
 
-interface LocaleLayoutProps {
-  children: ReactNode;
-  params: { locale: string };
+interface Params {
+  locale: string;
 }
 
-export default function LocaleLayout({ children, params }: LocaleLayoutProps) {
-  const { locale } = params;
+interface LocaleLayoutProps {
+  children: ReactNode;
+  params: Promise<Params>;
+}
+
+export default async function LocaleLayout({ children, params }: LocaleLayoutProps) {
+  const { locale } = await params;
 
   let messages;
   try {
-    messages = require(`../../locales/${locale}.json`);
+    messages = (await import(`../../locales/${locale}.json`)).default;
   } catch {
     notFound();
   }
