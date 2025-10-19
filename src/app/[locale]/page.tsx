@@ -88,8 +88,8 @@ const Home = () => {
       <Box className="flex flex-col lg:flex-row items-start lg:items-center gap-10 lg:gap-20">
         <Box className="flex justify-center lg:justify-start w-full lg:w-[400px]">
           <Image
-            alt="product image"
-            src="/dori.jpg"
+            alt="Baby Metabol"
+            src="/Baby_Metabol.jpg"
             width={400}
             height={400}
             className="rounded-xl shadow-lg w-full sm:w-[350px] md:w-[400px] h-auto"
@@ -98,8 +98,8 @@ const Home = () => {
 
         <Box className="lg:w-1/2 w-full space-y-6">
           <Typography
-            variant="h4"
-            className="font-semibold text-pink-500 text-center lg:text-left"
+            variant="h1"
+            className="font-semibold text-3xl text-pink-500 text-center lg:text-left"
           >
             {t("title")}{" "}
             <span className="text-2xl text-pink-600 block sm:inline">
