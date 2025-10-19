@@ -97,15 +97,14 @@ const Home = () => {
         </Box>
 
         <Box className="lg:w-1/2 w-full space-y-6">
-          <Typography
-            variant="h1"
+          <h1
             className="font-semibold text-3xl text-pink-500 text-center lg:text-left"
           >
             {t("title")}{" "}
             <span className="text-2xl text-pink-600 block sm:inline">
               {t("title_span")}
             </span>
-          </Typography>
+          </h1>
 
           <Box className="flex mt-4 flex-col sm:flex-row items-center justify-center sm:justify-start gap-8 sm:gap-10">
             <ul className="pl-6 text-gray-800 text-sm sm:text-base list-none">
