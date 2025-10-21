@@ -31,6 +31,7 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
   return (
 <html lang={locale}>
   <head>
+    <link rel="cononical" href={`https://ustarvit.uz/${locale}`} />
     <script
       type="application/ld+json"
       dangerouslySetInnerHTML={{
@@ -40,7 +41,7 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
           name: "Baby Metabol",
           headline: "Baby Metabol – Biologik faol oziq-ovqat qo‘shimchasi bo‘yicha qo‘llanma, vitaminlar",
           description: "Biologik faol oziq-ovqat qo‘shimchasi bo‘yicha qo‘llanma, vitaminlar",
-          url: "https://dori-project-w8l5.vercel.app/uz",
+          url: `https://ustarvit.uz/${locale}`,
         }),
       }}
     />
