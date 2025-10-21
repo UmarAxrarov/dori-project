@@ -98,7 +98,7 @@ const Home = () => {
 
         <Box className="lg:w-1/2 w-full space-y-6">
           <h1
-            className="font-semibold text-2xlxl text-pink-500 text-center lg:text-left"
+            className="font-semibold text-2xl text-pink-500 text-center lg:text-left"
           >
             {t("title")}{" "}
             <span className="text-2xl text-pink-600 block sm:inline">
