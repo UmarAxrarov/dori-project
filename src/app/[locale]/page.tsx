@@ -111,6 +111,7 @@ const Home = () => {
               <li>{t("list.item1")}</li>
               <li>{t("list.item2")}</li>
               <li>{t("list.item3")}</li>
+              <li>{t("list.item4")}</li>
               <li>{t("list.item5")}</li>
               <li>{t("list.item6")}</li>
               <li>{t("list.item7")}</li>
