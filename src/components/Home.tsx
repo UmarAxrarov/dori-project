@@ -116,10 +116,10 @@ const Home = () => {
               <li>{t("list.item6")}</li>
               <li>{t("list.item7")}</li>
               <li>{t("list.item8")}</li>
-              <li style={{width:"60%"}}>{t("list.item9")}</li>
+              <li>{t("list.item9")}</li>
             </ul>
 
-            <div className="w-[180px] sm:w-[200px] h-[220px] sm:h-[250px]">
+            <div className="w-[220px] sm:w-[200px] h-[220px] sm:h-[250px]">
               <ResponsiveContainer width="100%" height="100%">
                 <PieChart>
                   <Pie
