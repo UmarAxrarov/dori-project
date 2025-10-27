@@ -39,7 +39,6 @@ export default async function LocaleLayout({
 
         <link rel="alternate" href="https://ustarvit.uz/uz" hrefLang="uz" />
         <link rel="alternate" href="https://ustarvit.uz/ru" hrefLang="ru" />
-        <link rel="alternate" href="https://ustarvit.uz/en" hrefLang="en" />
 
         <meta
           name="description"

@@ -11,16 +11,17 @@
       "item5": "B12"
     },
     "list": {
-      "item1": "Faol Moddallari:",
-      "item2": "DL-karnitin — 300mg",
-      "item3": "L-Lizin gidroxlorid — 300mg",
-      "item4": "0,5 g kukun tarkibi:",
-      "item5": "Tsiprogeptadin atsefilinat — 0,875mg",
-      "item6": "Vitamin B1 — 1,5 mg",
-      "item7": "Vitamin B6 (Pridoksin) — 2mg",
-      "item8": "Vitamin B12 (Siyanokobalamin) — 2mkg",
-      "item9": "Selen — 5mkg"
+      "item1": "Faol moddalari (150 ml tayyor eritma uchun):",
+      "item2": "DL-karnitin gidroxlorid — 7,2 g",
+      "item3": "L-lizin gidroxlorid — 7,2 g",
+      "item4": "Tsiprogeptadin atsefilinat — 5,25 mg",
+      "item5": "Vitamin B1 (Tiamin) — 9 mg",
+      "item6": "Vitamin B6 (Piridoksin) — 2 mg",
+      "item7": "Vitamin B12 (Siyanokobalamin) — 12 mkg",
+      "item8": "Selen — 30 mkg",
+      "item9": "Yordamchi moddalar: Essensiya, maltitol, tozalangan suv, povidon K-30, metilgidroksibenzoat, mannitol."
     },
+
     "table": {
       "th": {
         "col1": "Yoshi",
